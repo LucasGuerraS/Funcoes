@@ -5,24 +5,19 @@ def it():
 
 def maior(n1, n2):
     if n1 > n2:
-        r =1
+        r = f"numero: {n1} maior que {n2}"
     elif n1 == n2:
-        r = 3
+        r = f"numero: {n1} igual a {n2}"
     else:
-        r =2
+        r = f"numero: {n2} maior que {n1}"
     return r
 
 
-def imp(n1, n2, ct):
-    if ct == 1:
-        print(f"numero: {n1} maior que {n2}")
-    if ct == 2:
-        print(f"numero: {n2} maior que {n1}")
-    if ct == 3:
-        print(f"numero: {n1} igual a {n2}")
+def imp(ct):
+    print(ct)
 
 #principal
 n1 = it()
 n2 = it()
 q = maior(n1, n2)
-imp(n1, n2, q)
+imp(q)
