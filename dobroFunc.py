@@ -11,8 +11,10 @@ def dobro(n):
 def imp(n):
     print(f"numero: {n/2} \n dobro: {n}")
 
+def main():
+    n = it()
+    r = dobro(n)
+    imp(r)
 
 # Principal
-r1 = it()
-d = dobro(r1)
-imp(d)
+main()
