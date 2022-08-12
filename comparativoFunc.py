@@ -8,7 +8,6 @@ def it():
     n = float(input("Digite um número: "))
     return n
 
-
 def maior(n1: float, n2: float):
     """
     Função que retorna o maior número entre dois números
@@ -24,7 +23,6 @@ def maior(n1: float, n2: float):
         r = f"numero: {n2} maior que {n1}"
     return r
 
-
 def imp(ct):
     """
     Função que imprime o parametro passado
@@ -34,7 +32,6 @@ def imp(ct):
     """
     print(ct)
 
-
 def main():
     """
     Função principal de execução do programa
@@ -43,7 +40,6 @@ def main():
     n2 = it()
     r = maior(n1, n2)
     imp(r)
-
 
 # principal
 main()
