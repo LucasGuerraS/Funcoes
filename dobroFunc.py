@@ -31,12 +31,12 @@ def main():
     """
     Função principal de execução do programa
     """
-    n = it()
-    r = dobro(n)
-    imp(r)
-    n = it()
-    r = dobro(n)
-    imp(r)
+    continuar = 1
+    while continuar == 1:
+        n = it()
+        r = dobro(n)
+        imp(r)
+        continuar = int(input("Deseja continuar? 1 - sim / 0 - não: "))
 
 # Principal
 main()
